@@ -1,5 +1,4 @@
 const astronomyurl=`https://science.nasa.gov/wp-json/wp/v2/apod-basic/${'?count=10'}` //  "?count=10",
-           
 
 export async function getastronomy() {
     let d=await fetch(astronomyurl);
