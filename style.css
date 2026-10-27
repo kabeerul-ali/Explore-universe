@@ -221,7 +221,7 @@ p {
   width: 90%;
   height: 90%;
   object-fit: contain;
-  animation: planetzoo 9s ease-in-out 1000ms infinite alternate;
+  animation: planetzoo 20s ease-in-out 1200ms infinite alternate;
 }
 
 
