@@ -170,6 +170,38 @@ p {
 }
 @keyframes go {
     
+
+}
+
+/*kab image here */
+.kab{
+  width: 98vmin;
+  height: 98vmin;
+  overflow: hidden;
+  border: 2px solid var(--border);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  margin-top: 1rem;
+}
+#kabimg{
+  height: 96%;
+  width: 96%;
+   object-fit: contain;
+   
+  animation: kabzoo 10s linear 0s infinite alternate;
+
+}
+
+@keyframes kabzoo {
+  0% {
+    transform: scale(0.1) rotate(0deg);
+  }
+  100% {
+    transform: scale(4) rotate(1000deg);
+  }
 }
 
 
@@ -226,7 +258,7 @@ p {
 
 
 .planets .img:hover{
-  transform: scale(1.0092);
+  border-color: rgb(203, 194, 194);
 }
 
 .planets h2{
@@ -243,6 +275,6 @@ p {
     transform: scale(0.7) rotate(0deg);
   }
   to {
-    transform: scale(1.4) rotate(120deg);
+    transform: scale(1.4) rotate(160deg);
   }
 }
