@@ -240,9 +240,9 @@ p {
 
 @keyframes planetzoo {
   from {
-    transform: scale(1) rotate(0deg);
+    transform: scale(0.7) rotate(0deg);
   }
   to {
-    transform: scale(1.5) rotate(120deg);
+    transform: scale(1.4) rotate(120deg);
   }
 }

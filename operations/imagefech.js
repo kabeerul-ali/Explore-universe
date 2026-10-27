@@ -44,7 +44,7 @@ export const spaceImages = [
   // MOONS
   {
     category: "moons",
-    name: "Earth Moon",
+    name: "Moon",
     url: "https://images-assets.nasa.gov/image/PIA00405/PIA00405~orig.jpg"
   },
   {
@@ -61,13 +61,8 @@ export const spaceImages = [
   // STARS
   {
     category: "stars",
-    name: "The Sun",
+    name: "Sun",
     url: "https://images-assets.nasa.gov/image/PIA03149/PIA03149~orig.jpg"
-  },
-  {
-    category: "stars",
-    name: "Star Field",
-    url: "https://images-assets.nasa.gov/image/PIA12348/PIA12348~orig.jpg"
   },
 
   // GALAXIES
@@ -76,18 +71,9 @@ export const spaceImages = [
     name: "Andromeda Galaxy",
     url: "https://images-assets.nasa.gov/image/PIA15416/PIA15416~orig.jpg"
   },
-  {
-    category: "galaxies",
-    name: "Whirlpool Galaxy",
-    url: "https://images-assets.nasa.gov/image/PIA04232/PIA04232~orig.jpg"
-  },
 
-  // NEBULAE
-  {
-    category: "nebulae",
-    name: "Orion Nebula",
-    url: "https://images-assets.nasa.gov/image/PIA04605/PIA04605~orig.jpg"
-  },
+
+  
   {
     category: "nebulae",
     name: "Eagle Nebula",
@@ -98,8 +84,7 @@ export const spaceImages = [
   {
     category: "black-holes",
     name: "Black Hole",
-    url: "https://images-assets.nasa.gov/image/PIA20051/PIA20051~orig.jpg"
-  },
+    url: "https://res.cloudinary.com/dfjttwg1q/image/upload/f_auto/q_auto/Cinematic_Black_Hole_Accretion_Portal_mptxr3.png"},
 
   // DEEP SPACE
   {
