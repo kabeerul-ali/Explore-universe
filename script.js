@@ -1,25 +1,21 @@
 import { getastronomy } from "./operations/datafetch.js";
-// import { tvon } from "./operations/generate.js";
-//import { info } from "./pages/pages.js";
-//detailed all element 
-
-
-
+import { spaceImages, getimage } from "./operations/imagefech.js";
+import { createplanets } from "./operations/createplanets.js";
+const universe = document.querySelector(".universe");
 const tv = document.querySelector(".astronomy");
 async function playtv() {
   const data = await getastronomy();
   await tvon(data);
-
 }
 
-// tv.addEventListener("cardclick", async (event) => {
-//   const data=await getastronomy();
-//   const index=event.detail;
-//   detail(data,index) 
-// });
-
-
 playtv().catch(console.error);
+
+
+createplanets(universe);
+
+
+
+
 
 
 
@@ -67,10 +63,10 @@ async function tvon(data) {
     //addevent listener
 
     element.addEventListener("click", () => {
-      const tempind=imageind[i];
-      window.location.href='./pages/detailled.html';
+      const tempind = imageind[i];
+      window.location.href = "./pages/detailled.html";
       sessionStorage.clear();
-      sessionStorage.setItem("index",imageind[i]);
+      sessionStorage.setItem("index", imageind[i]);
     });
 
     tv.appendChild(element);
