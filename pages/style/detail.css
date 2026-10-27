@@ -55,9 +55,12 @@ h2,
   color: red;
   font-size: 12px;
 }
-#title {
+#dtitle {
   color: #eac214;
   font-size: 16px;
+}
+#mtitle{
+  color: aquamarine;
 }
 .ddescription{
     width: 96vw;
@@ -68,7 +71,9 @@ h2,
   height: 100vmin;
   background-color: black;
   border: 10px solid black;
-  border-radius: 2rem;
+  border-radius: 7px;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
