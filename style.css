@@ -194,17 +194,31 @@ p {
   animation: kabzoo 10s linear 0s infinite alternate;
 
 }
+#kabimg:hover{
+
+  animation-play-state: paused;
+  cursor: pointer;
+}
 
 @keyframes kabzoo {
   0% {
-    transform: scale(0.1) rotate(0deg);
+    transform: scale(0) rotate(0deg);
   }
   100% {
     transform: scale(4) rotate(1000deg);
   }
 }
 
+/*for video*/
 
+#kabvid{
+
+  width: 96vmin;
+  object-fit: contain;
+  margin-top: 2rem;
+  border: 5px solid var(--border);
+  border-radius: 2rem;
+}
 
 /* lets explore universe  */
 .universe{
