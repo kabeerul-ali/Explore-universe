@@ -1,0 +1,98 @@
+:root {
+  --texth: #032258;
+  --textp: #e0ddcf;
+  --bgmain: #242a2a;
+  --bgbest: #474448;
+  --border: #2a1c33;
+  --body: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: transparent;
+}
+
+body {
+  background-color: var(--body);
+  padding: 7px;
+}
+.top {
+  margin-top: 2px;
+  height: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(31, 30, 30);
+  border-radius: 7rem;
+}
+.top h3 {
+  text-align: center;
+}
+.backbtn {
+  position: fixed;
+  top: 5px;
+  left: 10px;
+  background: transparent;
+  text-align: center;
+  height: 40px;
+  width: 80px;
+  border: 1px solid black;
+  border-radius: 25px;
+  background-color: rgb(116, 113, 113);
+  z-index: 10;
+}
+.detail p,
+h2,
+.description {
+  text-align: justify;
+  margin-top: 7px;
+  padding: 10px;
+}
+#ddate {
+  color: red;
+  font-size: 12px;
+}
+#dtitle {
+  color: #eac214;
+  font-size: 16px;
+}
+.ddescription{
+    width: 96vw;
+    padding: 10px;
+}
+.img {
+  width: 100vmin;
+  height: 100vmin;
+  background-color: black;
+  border: 10px solid black;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../../images/baner.png);
+}
+.img img {
+  height: auto;
+  width: 90vmin;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.detail {
+  margin-top: 2rem;
+  border-radius: 1rem;
+  width: 100%;
+  height: auto;
+  background-color: var(--bgbest);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
