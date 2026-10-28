@@ -1,3 +1,8 @@
+html,
+body {
+  zoom: 1;
+  touch-action: pan-x pan-y;
+}
 :root {
   --texth: #032258;
   --textp: #e0ddcf;

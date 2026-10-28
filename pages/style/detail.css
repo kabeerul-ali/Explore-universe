@@ -6,6 +6,11 @@
   --border: #2a1c33;
   --body: black;
 }
+html,
+body {
+  zoom: 1;
+  touch-action: pan-x pan-y;
+}
 
 * {
   margin: 0;
