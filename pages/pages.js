@@ -8,7 +8,6 @@ export async function detail() {
   const des = document.querySelector("#ddes");
   const img = document.querySelector(".img");
   const date = document.querySelector("#ddate");
-
   //btnfunction
   backbtn.addEventListener("click", () => {
     window.location.href="../index.html";
@@ -23,7 +22,7 @@ export async function detail() {
 }
 detail();
 
-function cleandes(data) {
+export function cleandes(data) {
   let skip = false;
   let cleandata = "";
   for (const i of data) {

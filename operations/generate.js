@@ -34,12 +34,8 @@ export async function getplanatedata(name) {
       continue;
     }
     //keybord safe
-    const k0 = data[cd].data[0].keywords;
-    let k1 = "";
-    for (const i of k0) {
-      k1 += `${i} , `;
-    }
-    const keyword = `[${k1}]`;
+    const keyword = data[cd].data[0].keywords;
+    
 
     const title = data[cd].data[0].title;
     const des = data[cd].data[0].description;

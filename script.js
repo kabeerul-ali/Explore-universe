@@ -1,6 +1,7 @@
 import { getastronomy } from "./operations/datafetch.js";
 import { spaceImages, getimage } from "./operations/imagefech.js";
 import { createplanets } from "./operations/createplanets.js";
+const heronav = document.querySelectorAll(".herojac");
 const universe = document.querySelector(".universe");
 const tv = document.querySelector(".astronomy");
 async function playtv() {
@@ -10,34 +11,14 @@ async function playtv() {
 
 playtv().catch(console.error);
 
-
 createplanets(universe);
+//hero unavailble
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+for (const i of heronav) {
+  i.addEventListener("click", () => {
+    alert(`${i.innerText} : service not availble`);
+  });
+}
 
 async function tvon(data) {
   let imageind = [];
